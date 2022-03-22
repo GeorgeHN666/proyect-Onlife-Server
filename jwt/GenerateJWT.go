@@ -9,7 +9,7 @@ import (
 
 func GenerateJWT(t models.User) (string, error) {
 
-	pass := []byte("andresbeatrizcuzco")
+	pass := []byte(" Here Goes Your Password ")
 
 	payload := jwt.MapClaims{
 		"_id":   t.ID.Hex(),

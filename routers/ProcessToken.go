@@ -15,7 +15,7 @@ var GlobalID string
 
 func ProcessToken(t string) (*models.JWTClaims, bool, string, error) {
 
-	password := []byte("andresbeatrizcuzco")
+	password := []byte(" Here Goes Your Password ")
 
 	claims := &models.JWTClaims{}
 

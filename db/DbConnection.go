@@ -12,7 +12,7 @@ import (
 var DBConnection = connection()
 
 // This Variable Its Responsable To take our Mongo Token Of our Database Along with the password
-var clientOptions = options.Client().ApplyURI("mongodb+srv://j:rootroot@cluster0.rj0tg.mongodb.net/test")
+var clientOptions = options.Client().ApplyURI(" Here Goes The Database String ")
 
 // This is The Function That Will Do The Connection With The Database
 func connection() *mongo.Client {
